@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+
+    <style>
+        a :link {
+            color: darkgoldenrod;
+            background-color:transparent;
+            text-decoration:none ;
+        }
+        a:visited{
+            color: blueviolet;
+            background-color: rebeccapurple;
+            text-decoration: underline;
+        }
+        a:hover{
+            color:brown;
+            background-color:transparent;
+            text-decoration: dotted;
+        }
+       a :active{
+        color: black;
+        background-color: blue;
+        text-decoration: double ;
+       }
+    
+   
+    
+    
+        a:link,a:visited{
+background-color: #f44336;
+color: aquamarine;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+        }
+        a:hover,a:active{
+            background-color: blue;
+        }
+    </style>
+    </head>
+    <body>
+        <h2>Links colors</h2>
+        <p>You can change the default colors of links </p>
+        <a href="https://www.google.com">Go to google</a>
+        <br>
+        <h2>Links Button</h2>
+        <p>A links styled as a button:</p>
+        <a href="https://www.google.com">Go to google</a>
+</body>
+</html>

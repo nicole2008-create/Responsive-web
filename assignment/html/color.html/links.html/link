@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+</head>
+<body>
+    <h1>HTML Links</h1>
+
+<p><a href="https://www.pinterest.com/">Visit pinterest.com!</a></p>
+<br>
+<h2>The target Attribute</h2>
+
+<a href="https://pinterest.com/" target="_blank">Visit pinterest!</a> 
+
+<p>If target="_blank", the link will open in a new browser window or tab.</p>
+<br>
+<h2>Absolute URLs</h2>
+<p><a href="https://www.pinterest.org/" target="_blank">pinterest</a></p>
+<p><a href="https://www.google.com/" target="_blank">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+<br>
+<h2>Image as a Link</h2>
+
+<p>The image below is a link. Try to click on it.</p>
+
+<a href="default.asp"><img src="smiley.gif" alt="pinterest clothes" style="width:42px;height:42px<h2>
+Link to an Email Address</h2>
+    <p>To create a link that opens in the user's email program (to let them send a new email),
+        use mailto: inside the href attribute:</p>
+    
+    <p><a href="mailto:nicoleobi888@gmail.com>Send email</a></p>
+<br>
+<h2>Button as a Links</h2>
+
+<p>Click the button to go to the pinterest clothes.</p>
+
+<button onclick="document.location='default.asp'">pinterest </button>
+<br>
+<h2>Link Titles</h2>
+<p>The title attribute specifies extra information about an element. 
+    The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+<a href="https://www.pinterest.com/html/" title="Go to pinterest ">Visit our pinterest clothes</a>
+<br>
+<h2>External Paths</h2>
+
+<p>This example uses a full URL to link to a web page:</p>
+<p><a href="https://www.pinterest.com/html/default.asp">pinterest clothes</a></p>
+<br>
+<h2>External Paths</h2>
+
+<p>This example links to a page located in the html folder on the current web site:</p>
+
+<p><a href="/html/default.asp">pinterest clothes</a></p>
+<br>
+<h2>External Paths</h2>
+
+<p>This example links to a page located in the same folder as the current page:</p>
+
+<p><a href="default.asp">pinterest clothes</a></p>
+</body>
+</html>
